@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "DM Sans", sans-serif;
+    background: rgb(34,34,34);
+    background: radial-gradient(circle, rgba(34,34,34,1) 0%, rgba(20,20,20,1) 100%);
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Header */
+header{
+    width: 100%;
+    display: flex;
+    background-color: #222222 ;
+    align-items: center;
+    justify-content: space-around;
+    height: 85px;
+    box-shadow: 1px 1px 100px rgb(10, 10, 10);
+}
+.logo{
+    color: white;
+}
+.menus a{
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    margin-right: 35px;
+}
+.menus a:hover{
+    transition: ease 0.3s;
+    color: orange;
+}
+/* Home */
+#Home{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+}
+#Home .avatar{
+    width: 650px;
+    height: 650px;
+    border-radius: 100%;
+    border: 17px solid #222222;
+}
+.icon-js{
+    position: relative;
+    bottom:19rem;
+    left:54rem;
+}
+.icon-github{
+    position: relative;
+    bottom: 8rem;
+    left: 11rem;
+}
+.icon-python{
+    position: relative;
+    bottom: 27rem;
+    left: 4rem;
+}
+.redes{
+    margin-top: 20px;
+    margin-left: 6px;
+}
+main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.h1-home{
+    font-weight: 800;
+    font-size: 68px;
+    color: white;
+}
+.name{
+    color: rgb(255,119,22);
+}
+.paragraph-home{
+    color: gray;
+    font-size: 18px;
+    position: relative;
+    bottom: 25px;
+}
+.whats{
+    display: flex;
+    text-decoration: none;
+    background: none;
+    border-style: none;
+    font-size: 22px;
+    color:rgb(255,119,22);
+    border: 1px solid rgb(255,119,22);
+    border-radius: 18px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    align-items: center;
+    gap: 10px;
+    width: 45%;
+}
+.whats:hover{
+    transform: scale(1.050);
+}
+/* Aboutme */
+#About{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+h1{
+    color: white;
+    font-size: 48px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    max-width: 50%;
+    margin-top: 25px;
+}
+.icon-skill{
+    width: 64px;
+    height: 64px;
+    transition: transform 0.3s ease;
+}
+.icon-skill:hover{
+    transform: scale(1.1);
+}
+#Habilidades{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.Skills{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+    padding: 50px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    
+}
+.nome-skill{
+    color: rgb(255,119,22);
+    position: relative;
+    right: 10px;
+}
+.skil{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Projects{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.nome-projeto{
+    display: flex;
+    background-color: rgb(255,119,22);
+    position: relative;
+    bottom: 20px;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    justify-content: center;
+}
+.image-projeto{
+    border-radius: 20px;
+}
+.projeto{
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+}
+.projeto:hover{
+    transform: scale(1.035);
+}
+
+/* footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #222222 ;
+    gap: 170px;
+}
+.icon-redes{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+h2{
+    color: white;
+}
+.footer-p{
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+#botaoSubir{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 50px 30px 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateY(20px);
+}
+#botaoSubir:hover {
+    background-color: #555;
+}
+#botaoSubir.show {
+    display: block; /* Exibido quando necessário */
+    opacity: 1;
+    transform: translateY(0); /* Animação para a posição original */
+}
