@@ -15,22 +15,39 @@ html{
 }
 /* Header */
 header{
-    width: 100%;
     display: flex;
+    width:85%;
+    margin-left: 10%;
     background-color: #222222 ;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 85px;
     box-shadow: 1px 1px 100px rgb(10, 10, 10);
+    margin-top: 35px;
+    border-radius: 50px;
+    
+}
+#span-container{
+    color: rgb(255,119,22);
+    font-weight: 800;
+    border: 1px solid rgba(255, 119, 22, 0.075);
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 18px;
+    background-color: rgba(255, 119, 22, 0.075);
+    font-size: 14px;
+    margin-top: 30px;
 }
 .logo{
     color: white;
+    margin-left: 50px;
 }
 .menus a{
     text-decoration: none;
     font-size: 19px;
     color: white;
-    margin-right: 35px;
+    margin-right: 50px;
 }
 .menus a:hover{
     transition: ease 0.3s;
@@ -178,28 +195,152 @@ p{
     margin-top: 50px;
 }
 .nome-projeto{
+    font-size: 26px;
+}
+.lista-projetos{
     display: flex;
+    gap: 40px;
+}
+.descricao-projeto{
+    color: #ffffff7a;
+    font-size: 16px;
+    flex-wrap: wrap;
+}
+.ferramentas-usadas{
+    display: flex;
+    gap: 15px;
+    width: 10%;
+}
+.ferramenta{
+    border: 1px solid rgba(255, 119, 22, 0.075);
     background-color: rgb(255,119,22);
-    position: relative;
-    bottom: 20px;
-    padding: 10px;
-    font-size: 22px;
-    border-radius: 20px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    justify-content: center;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 4px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 50px;
 }
 .image-projeto{
     border-radius: 20px;
+    margin-top: 20px;
+    width: 350px;
 }
 .projeto{
     margin-top: 30px;
     transition: transform 0.3s ease;
+    border: 1px solid rgb(255,119,22);
+    padding: 26px;
+    border-radius: 16px;
 }
 .projeto:hover{
     transform: scale(1.035);
 }
-
+#carreira{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trajetoria{
+    display: flex;
+}
+.ano{
+    color: rgb(255,119,22);
+    margin-bottom: 40px;
+    position: relative;
+    bottom: 30px;
+}
+h3{
+    color: rgb(255,119,22);
+}
+.estudo{
+    border: 1px solid  rgb(255,119,22);
+    padding: 30px;
+    border-radius: 16px;
+    max-width: 70%;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+.estudo:hover{
+    transform: scale(1.03);
+    background-color: #ffffff1f;
+}
+.p-estudo{
+    max-width: 100%;
+    color: #ffffff80;
+}
+#depoimento{
+    display: flex;
+    justify-content: center;
+}
+.p-depoimento{
+    max-width: 100%;
+    font-size: 18px;
+    color: #ffffff83;
+}
+.nome-user{
+    font-size: 22px;
+}
+.profissao-user{
+    font-size: 18px;
+    color: rgb(255,119,22);
+}
+.depoimento{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(255,119,22);
+    padding:40px;
+    border-radius: 19px ;
+    max-width: 40%;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.depoimento:hover{
+    transform: scale(1.03);
+    background-color: #ffffff11;
+}
+.avatar-user{
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+}
+.user-depoimento{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.contatos{
+    display: flex;
+    margin-top: 45px;
+    align-items: center;
+    gap: 50px; 
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.whats-contatos{
+    display: flex;
+    text-decoration: none;
+    background: none;
+    border-style: none;
+    font-size: 22px;
+    color:rgb(255,119,22);
+    border: 1px solid rgb(255,119,22);
+    border-radius: 18px;;
+    padding-right: 30px;
+    padding-left: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    align-items: center;
+    gap: 10px;
+}
 /* footer */
 footer{
     display: flex;
@@ -208,6 +349,7 @@ footer{
     width: 100%;
     background-color: #222222 ;
     gap: 170px;
+    margin-top: 150px;
 }
 .icon-redes{
     width: 30px;
