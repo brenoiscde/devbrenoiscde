@@ -151,11 +151,14 @@ p{
     justify-content: center;
     margin-top: 30px;
     gap: 40px;
-    padding: 50px;
+    padding: 35px;
     border: 1px solid white;
     border-radius: 25px;
     margin-bottom: 50px;
     
+}
+.p-tech{
+    font-size: 20px;
 }
 .nome-skill{
     color: rgb(255,119,22);
