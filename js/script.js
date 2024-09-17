@@ -24,3 +24,16 @@ document.addEventListener('DOMContentLoaded', ()=> {
         });
     });
 });
+
+function copiaEmail(){
+    const copyText = document.querySelector('.email');
+    navigator.clipboard.writeText(copyText.innerHTML)
+    .then(() => {
+        alert('Email copiado')
+    })
+    .catch(err =>{
+        console.error('Erro ao copiar o email', err)
+    });
+}
+const imageCopy = document.querySelector('copy-email');
+imageCopy.addEventListener('click', copiaEmail)

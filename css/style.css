@@ -236,38 +236,64 @@ p{
 .projeto:hover{
     transform: scale(1.035);
 }
-#carreira{
+.carreira{
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.trajetoria{
+.container-estudo{
+    border: 1px solid rgb(255,119,22);
+    border-radius: 16px;
+    padding: 22px;
+    width: 70%;
+    margin-bottom: 50px;
+    transition: transform 0.3s ease;
+}
+.container-estudo:hover{
+    transform: scale(1.05);
+}
+.estudos{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .ano{
     color: rgb(255,119,22);
-    margin-bottom: 40px;
+}
+.anos{
+    margin-bottom: 30px;
     position: relative;
     bottom: 30px;
+    color: #ffffff7d;
 }
-h3{
-    color: rgb(255,119,22);
-}
-.estudo{
-    border: 1px solid  rgb(255,119,22);
-    padding: 30px;
-    border-radius: 16px;
-    max-width: 70%;
-    margin-bottom: 30px;
-    transition: transform 0.3s ease;
-}
-.estudo:hover{
-    transform: scale(1.03);
-    background-color: #ffffff1f;
+.nome-estudo{
+    font-size: 32px;
 }
 .p-estudo{
     max-width: 100%;
-    color: #ffffff80;
+    color: #ffffff72;
+}
+.container-academico{
+    border: 1px solid rgb(255,119,22);
+    border-radius: 16px;
+    padding: 22px;
+    width: 70%;
+    margin-bottom: 50px;
+    transition: transform 0.3s ease;
+}
+.container-academico:hover{
+    transform: scale(1.05);
+}
+.academicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome-academico{
+    font-size: 32px;
+}
+.p-academico{
+    color: #ffffff72;
+    max-width: 100%;
 }
 #depoimento{
     display: flex;
