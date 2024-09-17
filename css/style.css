@@ -202,9 +202,10 @@ p{
     gap: 40px;
 }
 .descricao-projeto{
+    display: flex;
     color: #ffffff7a;
     font-size: 16px;
-    flex-wrap: wrap;
+    width: 80%;
 }
 .ferramentas-usadas{
     display: flex;
@@ -239,6 +240,7 @@ p{
 .git-hub-projeto{
     display: flex;
     gap: 20px;
+    width:30% ;
 }
 
 .ver-projeto{
@@ -295,6 +297,7 @@ p{
 .p-estudo{
     max-width: 100%;
     color: #ffffff72;
+    margin-bottom: 10px;
 }
 .container-academico{
     border: 1px solid rgb(255,119,22);
@@ -316,10 +319,7 @@ p{
 .nome-academico{
     font-size: 32px;
 }
-.p-academico{
-    color: #ffffff72;
-    max-width: 100%;
-}
+
 #depoimento{
     display: flex;
     justify-content: center;
