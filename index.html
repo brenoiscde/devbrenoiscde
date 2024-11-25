@@ -8,22 +8,37 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <h1>Portfólio</h1>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Portfólio</h1>
+            </div>
+            <div class="menus">
+                <a href="#Home">Home</a>
+                <a href="#About">Sobre mim</a>
+                <a href="#Habilidades">Habilidades</a>
+                <a href="#Projects">Projetos</a>
+                <a href="#carreira">Carreira</a>
+                <a href="#depoimento">Depoimentos</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </nav>
+        <div class="header-mobile">
+                <h1>Portfólio</h1>
+                <button class="mobile-menu-icon" onclick="menuShow()"><img class="icon" src="/img/justify-fill-svgrepo-com.svg" alt=""></button>
         </div>
-        <div class="menus">
-            <a href="#Home">Home</a>
-            <a href="#About">Sobre mim</a>
-            <a href="#Habilidades">Habilidades</a>
-            <a href="#Projects">Projetos</a>
-            <a href="#carreira">Carreira</a>
-            <a href="#depoimento">Depoimentos</a>
-            <a href="#contato">Contato</a>
+        <div class="mobile-menu">
+                <li class="nav-item"><a href="#Home">Home</a></li>
+                <li class="nav-item"><a href="#About">Sobre mim</a></li>
+                <li class="nav-item"><a href="#Habilidades">Habilidades</a></li>
+                <li class="nav-item"><a href="#Projects">Projetos</a></li>
+                <li class="nav-item"><a href="#carreira">Carreira</a></li>
+                <li class="nav-item"><a href="#depoimento">Depoimento</a></li>
+                <li class="nav-item"><a href="#contato">Contato</a></li>
         </div>
     </header>
     <main>
         <section id="Home">
-            <div id="coinainer-text">
+            <div id="cointainer-text">
                 <h1 class="h1-home">Hello World!</h1>
                 <h1 class="h1-home">Sou <span class="name">Breno Souza <br>Ponticelli</span></h1>
                 <p class="paragraph-home">Full Stack Developer</p>
