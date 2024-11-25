@@ -459,6 +459,9 @@ h2{
 .mobile-menu{
     display: none;
 }
+.header-mobile{
+    display: none;
+}
 @media screen and (max-width:730px) {
     .nav-bar{
         display: none;
