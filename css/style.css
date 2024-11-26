@@ -61,6 +61,35 @@ nav{
     justify-content: center;
     gap: 160px;
 }
+@media(max-width:730px){
+    #Home{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-avatar{
+        display: flex;
+        .avatar{
+            max-width: 20%;
+            max-height: 20%;
+        }
+    }
+    #cointainer-text{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        line-height: 4rem;
+        padding: 0 2rem;
+
+        .paragraph-home{
+            line-height: 1rem;
+        }
+        .whats{
+            width: 100%;
+            max-width: 70%;
+        }
+
+    }
+}
 @media(max-width:1600px){
     #Home{
         gap:1px;
@@ -461,6 +490,9 @@ h2{
 }
 .header-mobile{
     display: none;
+    h1{
+        font-size: 2.5rem;
+    }
 }
 @media screen and (max-width:730px) {
     .nav-bar{
